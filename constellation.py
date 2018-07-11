@@ -1,3 +1,10 @@
+# Orion Constellation Project
+# by JP Brichta
+# 11 July 2018
+#
+# Visualize the constellation Orion in 2D and 3D using matplotlib in Jupyter Notebook
+# Completed as part of Codecademy Pro Intensive "Data Visualization with Python", DVP-Jul-10-2018 cohort
+
 
 # coding: utf-8
 
@@ -37,9 +44,9 @@ from mpl_toolkits.mplot3d import Axes3D
 
 # ## 2. Get familiar with real data
 # 
-# Astronomers describe a star's position in the sky by using a pair of angles: declination and right ascension. Declination is similar to longitude, but it is projected on the celestian fear. Right ascension is known as the "hour angle" because it accounts for time of day and earth's rotaiton. Both angles are relative to the celestial equator. You can learn more about star position [here](https://en.wikipedia.org/wiki/Star_position).
+# Astronomers describe a star's position in the sky by using a pair of angles: declination and right ascension. Declination is similar to longitude, but it is projected on the celestian fear. Right ascension is known as the "hour angle" because it accounts for time of day and earth's rotation. Both angles are relative to the celestial equator. You can learn more about star position [here](https://en.wikipedia.org/wiki/Star_position).
 # 
-# The `x`, `y`, and `z` lists below are composed of the x, y, z coordinates for each star in the collection of stars that make up the Orion constellation as documented in a paper by Nottingham Trent Univesity on "The Orion constellation as an installation" found [here](https://arxiv.org/ftp/arxiv/papers/1110/1110.3469.pdf).
+# The `x`, `y`, and `z` lists below are composed of the x, y, z coordinates for each star in the collection of stars that make up the Orion constellation as documented in a paper by Nottingham Trent University on "The Orion constellation as an installation" found [here](https://arxiv.org/ftp/arxiv/papers/1110/1110.3469.pdf).
 # 
 # Spend some time looking at `x`, `y`, and `z`, does each fall within a range?
 
